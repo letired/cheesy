@@ -1,0 +1,98 @@
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+  font-family: 'PT Sans', sans-serif;
+  color: #7D7D7D;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: #4f4e4e;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: #FFCA4C;
+}
+
+#name {
+  color: #FFCA4C;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #BEB7A4;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+#mission {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+#mission img{
+  width: 200px;
+}
+
+#mission td{
+  padding: 10px;
+}
+
+.container {
+  width: 600px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.img-resize {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #BEB7A4;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.enlarge-font {
+  font-size: 50px;
+}
+
+.img-border {
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px #BEB7A4
+}
+
+.btn-yellow {
+  background-color: #FFCA4C;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-yellow:hover {
+  color: black;
+}
